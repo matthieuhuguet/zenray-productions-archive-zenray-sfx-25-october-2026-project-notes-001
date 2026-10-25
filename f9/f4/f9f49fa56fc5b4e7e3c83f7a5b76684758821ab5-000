@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-10-25T18:53:54.395Z",
+ "scannedAt": "2026-10-25T19:03:54.700Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
-   "updatedAt": "2026-10-25T18:53:04.415Z",
-   "bytes": 10107108,
+   "updatedAt": "2026-10-25T18:57:50.393Z",
+   "bytes": 38422,
    "boundProject": "zenray-dictate"
   }
  ]
