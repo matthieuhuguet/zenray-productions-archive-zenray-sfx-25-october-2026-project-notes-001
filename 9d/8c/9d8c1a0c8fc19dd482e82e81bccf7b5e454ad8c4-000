@@ -2055,3 +2055,55 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (25 October 2026, 18:41:53 +0100)
 
 > J'attends la confirmation du cloud (sauvegarde des 767 fichiers et envoi de l'article) avant de conclure. (25 October 2026, 18:41:53 +0100)
+
+## 25 October 2026, 19:19:04 +0100 : Prompt
+
+<!-- feedback-event:bc4bdc34384727489435a25279485ef19d8c03a002fd44fc2cfee03680e4564f (25 October 2026, 19:19:04 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: prompt. (25 October 2026, 19:19:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (25 October 2026, 19:19:04 +0100)
+
+> <task-notification> (25 October 2026, 19:19:04 +0100)
+> <task-id>b5761zw49</task-id> (25 October 2026, 19:19:04 +0100)
+> <tool-use-id>toolu_01VzbRkX8V3VKjoX1m5ubJTt</tool-use-id> (25 October 2026, 19:19:04 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04/tasks/b5761zw49.output</output-file> (25 October 2026, 19:19:04 +0100)
+> <status>completed</status> (25 October 2026, 19:19:04 +0100)
+> <summary>Background command "Wait for cloud backup and article proof" completed (exit code 0)</summary> (25 October 2026, 19:19:04 +0100)
+> </task-notification> (25 October 2026, 19:19:04 +0100)
+
+## 25 October 2026, 19:19:41 +0100 : Iteration
+
+<!-- feedback-event:00aa34a69bf4baf0f3f2f3eb429d42e1dbb3a0b9b3755889c1290a62462b1ea2 (25 October 2026, 19:19:41 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (25 October 2026, 19:19:41 +0100)
+- Source: checkpoint:claude:b8e43d99-5824-4ddc-8444-a984b5743a04. (25 October 2026, 19:19:41 +0100)
+
+> Projet Assets zenray-sfx-25-october-2026 cree ; sources engine (depot ZenRaySFX, 757 fichiers), skill, workshop, notes reliees ; 785 fichiers inventories, tous sauvegardes sauf les fichiers de conversation qui changent pendant la capture ; article ZenRay SFX (theme papier, genere depuis SKILL.md, entree zenray-sfx du Registry) publie, envoi cloud done, reference presente dans l index cloud. Prochain geste : verdicts a l oreille de Matthieu. (25 October 2026, 19:19:41 +0100)
+
+## 25 October 2026, 19:19:54 +0100 : Iteration
+
+<!-- feedback-event:246ea2b7ba3119d60da3c06e021d081159990bc30d9b72c602bbf6e36a908307 (25 October 2026, 19:19:54 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (25 October 2026, 19:19:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (25 October 2026, 19:19:54 +0100)
+
+> ZenRay SFX est maintenant dans ZenRay Assets, dans sa version actuelle, avec son article. (25 October 2026, 19:19:54 +0100)
+>
+> Le projet s'appelle `zenray-sfx-25-october-2026` et relie quatre sources : (25 October 2026, 19:19:54 +0100)
+> - **le dépôt complet**, sans `.git` ni caches : code, sons de référence, rendus, preuves d'écoute, versions ; (25 October 2026, 19:19:54 +0100)
+> - **le skill** `zenray-sfx` ; (25 October 2026, 19:19:54 +0100)
+> - **l'atelier** du projet ; (25 October 2026, 19:19:54 +0100)
+> - **les notes du projet**, avec son FEEDBACK. (25 October 2026, 19:19:54 +0100)
+>
+> Le service refusait au départ le dépôt, faute de racine déclarée. Je l'ai ajouté à sa configuration comme ZenRay Motion Design (commit `998b4d6c`, contrat vert), puis j'ai rechargé le service sans interrompre aucune archive. (25 October 2026, 19:19:54 +0100)
+>
+> L'article suit la règle de rafraîchissement automatique. Il est généré depuis `SKILL.md`, où j'ai ajouté une présentation en ton neutre et le tableau des résultats mesurés. Il est inscrit au registre des articles : chaque modification du skill le republie seul. Il est en thème Papier, et son image d'ouverture montre le même son trois fois (référence, reproduction, retouche « plus lourd »). Ma première version de cette image était écrasée dans le cadre ; je l'ai refaite en bandes empilées, d'où la version `V_002`. (25 October 2026, 19:19:54 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 19:19:54 +0100)
+> |---|---|---| (25 October 2026, 19:19:54 +0100)
+> | Tout pousser dans Assets, version actuelle | Oui | 785 fichiers inventoriés, 783 sauvegardés. Les 2 restants sont les fichiers de cette conversation, qui changent pendant qu'on parle et partent au prochain passage | (25 October 2026, 19:19:54 +0100)
+> | Un article à ce stade | Oui | Envoi cloud terminé (`--check` : done) ; la référence de l'article est lue dans l'index cloud | (25 October 2026, 19:19:54 +0100)
+> | Qu'il reste à jour | Oui | Article généré depuis le skill et inscrit au registre ; une nouvelle synchronisation le confirme identique | (25 October 2026, 19:19:54 +0100)
+> | Ton écoute des sons | Pas vérifié | Toujours en attente de tes verdicts | (25 October 2026, 19:19:54 +0100)
+>
+> Fichiers : (25 October 2026, 19:19:54 +0100)
+> - [/Users/zenray/.claude/skills/zenray-edit/articles/25-October-2026-zenray-sfx-V_002/index.html](/Users/zenray/.claude/skills/zenray-edit/articles/25-October-2026-zenray-sfx-V_002/index.html) : l'article (25 October 2026, 19:19:54 +0100)
+> - [/Users/zenray/.claude/skills/zenray-sfx/SKILL.md](/Users/zenray/.claude/skills/zenray-sfx/SKILL.md) : sa source (25 October 2026, 19:19:54 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-sfx-25-october-2026](/Users/zenray/.claude/tmp/tmp-zenray-sfx-25-october-2026) : l'atelier du projet (25 October 2026, 19:19:54 +0100)

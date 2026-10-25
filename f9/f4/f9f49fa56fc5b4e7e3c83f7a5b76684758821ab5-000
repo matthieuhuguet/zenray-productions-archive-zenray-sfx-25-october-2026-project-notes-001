@@ -1,22 +1,22 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-10-25T18:10:51.365Z",
+ "scannedAt": "2026-10-25T18:53:54.395Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
-   "lines": 253,
+   "lines": 255,
    "work": 19,
    "prompts": 0,
    "first": "2026-10-25T14:10:22.408Z",
-   "last": "2026-10-25T17:41:42.636Z",
+   "last": "2026-10-25T18:19:54.840Z",
    "strength": "strong",
    "conversationId": "claude:b8e43d99-5824-4ddc-8444-a984b5743a04",
    "provider": "claude",
    "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
    "title": "zenray sfx",
-   "updatedAt": "2026-10-25T17:41:55.633Z",
-   "bytes": 38210,
+   "updatedAt": "2026-10-25T18:19:59.685Z",
+   "bytes": 38324,
    "boundProject": "zenray-sfx-25-october-2026"
   },
   {
@@ -31,8 +31,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-25T18:10:47.018Z",
-   "bytes": 47522252,
+   "updatedAt": "2026-10-25T18:49:49.582Z",
+   "bytes": 38325,
    "boundProject": "zenray-meshes"
   },
   {
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
-   "updatedAt": "2026-10-25T18:10:47.733Z",
-   "bytes": 38457,
+   "updatedAt": "2026-10-25T18:53:04.415Z",
+   "bytes": 10107108,
    "boundProject": "zenray-dictate"
   }
  ]
