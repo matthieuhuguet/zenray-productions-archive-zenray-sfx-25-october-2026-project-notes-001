@@ -4178,3 +4178,35 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:24:00 +0100)
 
 > Je découpe la référence (10 s à 17 s, fondus d'une seconde) et je lance la reproduction ZenRay SFX en arrière-plan. (26 October 2026, 19:24:00 +0100)
+
+## 26 October 2026, 19:27:17 +0100 : Iteration
+
+<!-- feedback-event:44956896c68c65cf03dab1f3462103efdb644bef98b693237d15a20edb4b9c37 (26 October 2026, 19:27:17 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 19:27:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:27:17 +0100)
+
+> J'ai reproduit le son d'apparition de la vidéo et fait trois variations calées sur la piste de 3 secondes. Je ne les ai pas écoutées: tout est mesuré, pas entendu. (26 October 2026, 19:27:17 +0100)
+>
+> **Source.** C'est « PlayStation Studios Opening Animation », 17 s. J'ai pris « 0,10 » pour 0:10. J'ai donc découpé de 10 s à 17 s, soit 7 s, avec un fondu d'entrée d'une seconde et un fondu de sortie d'une seconde. C'est le passage où le son se creuse vers 11 s, puis monte jusqu'à un sommet à 12,5 s avant de s'éteindre. Si l'extrait que tu voulais est un autre, dis-le-moi et je recommence. (26 October 2026, 19:27:17 +0100)
+>
+> **Reproduction.** Le son est refait par l'outil ZenRay SFX, avec 10 844 nombres. Les mesures comptent le pic ou le niveau, la hauteur et les lignes tonales. Elle atteint 99,23 contre la référence, avec les bruits tirés au hasard hors de ceux de l'ajustement. C'est au plafond de ce que cette recette peut atteindre contre elle-même (99,2). (26 October 2026, 19:27:17 +0100)
+> - J'ai joint la page d'écoute à l'aveugle (`listen.html`), où X est la référence ou la copie sans que tu le saches. Les signatures sont dans `signatures.png`. (26 October 2026, 19:27:17 +0100)
+> - Sur les signatures, la reproduction a des stries verticales de souffle dans les aigus, ce que la référence n'a pas. Les aigus de 6 à 12 kHz sont 5 dB plus forts. Si ce souffle te gêne, c'est le premier défaut à corriger. (26 October 2026, 19:27:17 +0100)
+>
+> **Les trois variations** (départ à 3,0 s du film, sommet vers 4,4 s, fondu d'une seconde dans chaque sens): (26 October 2026, 19:27:17 +0100)
+> - **H1, fidèle:** le son d'origine, décalé pour que son sommet tombe sur le début de l'aberration. (26 October 2026, 19:27:17 +0100)
+> - **H2, l'arc compressé:** tout le déroulé, creux, montée et sommet, comprimé pour tenir en 3 s. Son sommet tombe un peu tôt, à 3,9 s au lieu de 4,4 s. (26 October 2026, 19:27:17 +0100)
+> - **H3, plus doux et plus profond:** plus de grave, moins d'aigus, une queue de salle plus longue. (26 October 2026, 19:27:17 +0100)
+>
+> Les sons de cette vidéo restent dans l'atelier local de ZenRay SFX et ne sont pas publiés. L'index de ZenRay Edit connaît ces nouveaux sons. Assets et les trois skills restent à faire. (26 October 2026, 19:27:17 +0100)
+>
+> **Ta demande en plus court :** « Reproduis l'apparition Sony de 10 s à 17 s, fondus d'une seconde, puis trois variations pour sfx2. » (26 October 2026, 19:27:17 +0100)
+
+## 26 October 2026, 19:29:20 +0100 : Prompt
+
+<!-- feedback-event:b2d7a2bd1ec486b9694e1c08a4d94a858f196d189672361b9da5243ef497fbf1 (26 October 2026, 19:29:20 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: prompt. (26 October 2026, 19:29:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:29:20 +0100)
+
+> Sony-Apparition-10-17s.wav (26 October 2026, 19:29:20 +0100)
+> Hormis ce son qui est clean, tous les autres sont complètement pétés. Donc comme tout à l'heure, tu arrêtes de faire n'importe quoi et tu me proposes un son clean. Enfin, tu me proposes des variations de son clean et pas des variations complètement pétées. Peut-être que c'est aussi dû à la reproduction qui n'est pas exacte actuellement. Mais j'ai surtout l'impression que t'as fait n'importe quoi. Parce que là, le son grésille complètement. (26 October 2026, 19:29:20 +0100)
