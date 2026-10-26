@@ -4057,3 +4057,124 @@
 > Je ne sais pas si ton « tous les effets » incluait aussi sfx1 (les fins douces). Elles gardent un peu de souffle et de coup grave, donc si elles te déplaisent aussi, je les refais en tons purs. (26 October 2026, 19:20:25 +0100)
 >
 > **Ta demande en plus court :** « Refais sfx2 propre, doux, classe, esprit PlayStation et Kojima, sans rien de sale. » (26 October 2026, 19:20:25 +0100)
+
+## 26 October 2026, 19:23:02 +0100 : Prompt
+
+<!-- feedback-event:3e21c475b167219f8f979ba1bfa482972879e15e41678caf7d6a89650a23564b (26 October 2026, 19:23:02 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: prompt. (26 October 2026, 19:23:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:23:02 +0100)
+
+> https://www.youtube.com/watch?v=UvXVA_ZLAWo / Bah, c'est propre, mais essaie de viser plutôt l'effet d'apparition de Sony. Attends, je vais essayer de le trouver sur YouTube. C'est bon, j'ai trouvé. Ok, c'est de 0,10. De 0,10 avec un fade-in du seul. Du coup, c'est de 0,10 secondes avec un fade-in d'une seconde. Et un fade-out d'une seconde aussi. Et juste, tu reproduis le son et après, tu me proposes trois variations. Tu as déjà un outil qui permet de faire ça, du coup. /ytb-dlp mp3 (26 October 2026, 19:23:02 +0100)
+
+## 26 October 2026, 19:23:09 +0100 : Prompt
+
+<!-- feedback-event:3021d33b84d87f71e5a19d3eb6d673f92d9165a5db23ecab47c9528530ea8a6b (26 October 2026, 19:23:09 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: prompt. (26 October 2026, 19:23:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:23:09 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/ytb-dlp (26 October 2026, 19:23:09 +0100)
+>
+> # Trimmed 2026-09-10 (zenray-musk) (26 October 2026, 19:23:09 +0100)
+>
+> Ce skill contenait le manuel complet de yt-dlp (README amont, ~2500 lignes : installation, (26 October 2026, 19:23:09 +0100)
+> licences, compilation, liste exhaustive des options). C'est le bruit que `yt-dlp --help` (26 October 2026, 19:23:09 +0100)
+> donne déjà gratuitement. Supprimé. Ce qui reste : la méthode réelle (cookies + PO Token (26 October 2026, 19:23:09 +0100)
+> 4K, payée en debug) et un aide-mémoire des commandes que Matthieu utilise vraiment. (26 October 2026, 19:23:09 +0100)
+>
+> ## Méthode cookies + PO Token (le cas qui casse le plus souvent : formats bloqués à 360p) (26 October 2026, 19:23:09 +0100)
+>
+> Symptôme : `yt-dlp -F` ne montre que `18  mp4  640x360` alors qu'une 4K existe, ou YouTube (26 October 2026, 19:23:09 +0100)
+> répond « Sign in to confirm your age ». Ne jamais accepter 360p en silence. (26 October 2026, 19:23:09 +0100)
+>
+> 1. Sonder avec les cookies du navigateur : (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+>    yt-dlp --cookies-from-browser chrome --no-playlist --list-subs 'URL' (26 October 2026, 19:23:09 +0100)
+>    yt-dlp --cookies-from-browser chrome --no-playlist -F 'URL' (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+> 2. Si `-F` ne rend toujours que le format 18, YouTube attend un GVS PO Token. Installer une (26 October 2026, 19:23:09 +0100)
+>    seule fois le fournisseur : (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+>    /opt/homebrew/Cellar/yt-dlp/<version>/libexec/bin/python -m pip install --user -U 'yt-dlp-getpot-wpc==1.1.2' (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+>    (dépendance `nodriver` installée avec). Si l'import échoue sous Python 3.14 avec (26 October 2026, 19:23:09 +0100)
+>    `SyntaxError: Non-UTF-8 code starting with '\xb1'` dans `nodriver/cdp/network.py` (26 October 2026, 19:23:09 +0100)
+>    (bug connu : https://github.com/ultrafunkamsterdam/nodriver/issues/35), corriger une (26 October 2026, 19:23:09 +0100)
+>    fois : (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+>    cp <site-packages>/nodriver/cdp/network.py <site-packages>/nodriver/cdp/network.py.pre-utf8 \ (26 October 2026, 19:23:09 +0100)
+>      && iconv -f ISO-8859-1 -t UTF-8 <site-packages>/nodriver/cdp/network.py.pre-utf8 > <site-packages>/nodriver/cdp/network.py (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+> 3. Relancer avec le client `mweb` et le chemin de Chrome pour le fournisseur PO Token : (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+>    PYTHONPATH=<site-packages> yt-dlp --cookies-from-browser chrome --no-playlist \ (26 October 2026, 19:23:09 +0100)
+>      --extractor-args 'youtube:player_client=mweb' \ (26 October 2026, 19:23:09 +0100)
+>      --extractor-args 'youtubepot-wpc:browser_path=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' \ (26 October 2026, 19:23:09 +0100)
+>      -F 'URL' (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+>    Le fournisseur ouvre un navigateur local le temps du run (ne pas le fermer) et log (26 October 2026, 19:23:09 +0100)
+>    `Minting gvs PO Token for mweb`. Les formats jusqu'à 3840x2160 apparaissent alors. (26 October 2026, 19:23:09 +0100)
+> 4. Télécharger en forçant la hauteur minimale, sous-titres inclus si besoin : (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+>    PYTHONPATH=<site-packages> yt-dlp --cookies-from-browser chrome --no-playlist \ (26 October 2026, 19:23:09 +0100)
+>      --abort-on-error --check-formats --concurrent-fragments 16 --retries 10 --fragment-retries 10 \ (26 October 2026, 19:23:09 +0100)
+>      --extractor-args 'youtube:player_client=mweb' \ (26 October 2026, 19:23:09 +0100)
+>      --extractor-args 'youtubepot-wpc:browser_path=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' \ (26 October 2026, 19:23:09 +0100)
+>      -f 'bv[height>=2160]+ba' --merge-output-format mkv \ (26 October 2026, 19:23:09 +0100)
+>      --write-subs --sub-langs 'en' --sub-format 'srt' --convert-subs srt \ (26 October 2026, 19:23:09 +0100)
+>      --paths '/Users/zenray/.claude/tmp/tmp-<nom-parlant>' \ (26 October 2026, 19:23:09 +0100)
+>      --output '%(title)s [%(id)s].%(ext)s' --newline --print after_move:filepath 'URL' (26 October 2026, 19:23:09 +0100)
+>    ``` (26 October 2026, 19:23:09 +0100)
+> 5. Vérifier, jamais se fier au nom de fichier : `ffprobe -v error -show_entries (26 October 2026, 19:23:09 +0100)
+>    stream=codec_name,width,height:format=duration,size -of default=noprint_wrappers=1 <fichier>` (26 October 2026, 19:23:09 +0100)
+>    doit lire `width=3840 height=2160`. Vérifier le SRT avec `wc -l`. (26 October 2026, 19:23:09 +0100)
+>
+> Sans PO Token, `android_vr` ne fonctionne pas avec les cookies (images seules) ; (26 October 2026, 19:23:09 +0100)
+> `web_safari` monte jusqu'à 1080p mais pas au flux GVS 4K. `mweb` + PO Token est la seule (26 October 2026, 19:23:09 +0100)
+> voie mesurée qui débloque la 4K sur une vidéo à restriction d'âge. (26 October 2026, 19:23:09 +0100)
+>
+> ## Aide-mémoire des commandes courantes (26 October 2026, 19:23:09 +0100)
+>
+> Meilleure qualité vidéo+audio fusionnés, avec cookies : (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+> yt-dlp --cookies-from-browser chrome -f 'bv*+ba/b' -o '%(title)s [%(id)s].%(ext)s' 'URL' (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+>
+> Audio seul en MP3 (le cas fréquent : musique) : (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+> yt-dlp --cookies-from-browser chrome -x --audio-format mp3 -o '%(title)s.%(ext)s' 'URL' (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+> Preset équivalent : `yt-dlp -t mp3 'URL'` (`-f 'ba[acodec^=mp3]/ba/b' -x --audio-format mp3`). (26 October 2026, 19:23:09 +0100)
+>
+> Sous-titres seuls, langue donnée, format SRT propre : (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+> yt-dlp --cookies-from-browser chrome --write-subs --sub-langs fr --sub-format srt --convert-subs srt --skip-download 'URL' (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+>
+> Vers un dossier précis, en batch depuis une liste d'URLs : (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+> yt-dlp --cookies-from-browser chrome -a urls.txt -P '/chemin/cible' -o '%(title)s.%(ext)s' (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+>
+> Diagnostic pur (voir formats disponibles sans télécharger) : (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+> yt-dlp --cookies-from-browser chrome -F 'URL' (26 October 2026, 19:23:09 +0100)
+> ``` (26 October 2026, 19:23:09 +0100)
+>
+> Pour toute option non couverte ici (proxy, playlist, rate-limit, embed-thumbnail, (26 October 2026, 19:23:09 +0100)
+> sponsorblock…) : `yt-dlp --help`, c'est le manuel à jour, pas la peine de le dupliquer. (26 October 2026, 19:23:09 +0100)
+>
+> ## 13 October 2026 : extrait exact et texte avec fondu (26 October 2026, 19:23:09 +0100)
+>
+> - Pour télécharger uniquement 16:51 à 17:01 en 480p : `yt-dlp --no-playlist -f 'bv[height=480]+ba/b[height=480]' --download-sections '*1011-1021' --force-keyframes-at-cuts --merge-output-format mp4 -o '<atelier>/Source.%(ext)s' '<URL>'`. Résultat vérifié : 854 x 480, 250 images à 25 images/s ; le téléchargement et la coupe prennent environ six secondes sur K7gtoTSzNUA. (13 October 2026) (26 October 2026, 19:23:09 +0100)
+> - Ce ffmpeg ne propose pas drawtext ni libass. Un texte exact se rasterise sur un PNG transparent par Pillow, puis `fade=t=in:st=7:d=3:alpha=1` et `overlay` l’incrustent. InterVariable.ttf permet le poids Bold 700 via get_variation_axes/set_variation_by_axes, sans installer de fonte. Recette paramétrable : `/Users/zenray/.claude/tmp/tmp-jordanbardella-meme/Scripts/Render.py`, Params.json et Scripts/Verify.py ; H.264 VideoToolbox, audio AAC, sortie 10 s exactement. (13 October 2026) (26 October 2026, 19:23:09 +0100)
+>
+>
+> ARGUMENTS: mp3 https://www.youtube.com/watch?v=UvXVA_ZLAWo (26 October 2026, 19:23:09 +0100)
+
+## 26 October 2026, 19:24:00 +0100 : Iteration
+
+<!-- feedback-event:4180dd9c55366a868cde0d1b18ab8832c0e0de47fea8b35791e11f91e83247cc (26 October 2026, 19:24:00 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 19:24:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:24:00 +0100)
+
+> Je découpe la référence (10 s à 17 s, fondus d'une seconde) et je lance la reproduction ZenRay SFX en arrière-plan. (26 October 2026, 19:24:00 +0100)
