@@ -5396,3 +5396,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 20:20:42 +0100)
 
 > Compris : la note au moment où le logo apparaît, trois propositions. Je finis d'abord de réparer mon contrôle (le filtre grave de ffmpeg n'est pas à phase nulle), puis je fais ces trois vidéos. (26 October 2026, 20:20:42 +0100)
+
+## 26 October 2026, 20:21:19 +0100 : Iteration
+
+<!-- feedback-event:5e88cc6a3d10294fa38f3ea5ef0dc66cbbc6af130d55bedbe95fa7e344fd0be1 (26 October 2026, 20:21:19 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 20:21:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 20:21:19 +0100)
+
+> Le limiteur retarde tout de 5 ms (anticipation) : je le compense à l'échantillon près, et le contrôle le vérifiera. (26 October 2026, 20:21:19 +0100)
