@@ -4314,3 +4314,28 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:47:24 +0100)
 
 > Les sons que je t'ai demandé de merge sont pas normalisés au même niveau, ce qui fait que le mixage est très bizarre. En fait, t'aurais dû regarder tout. En fait, t'aurais dû normaliser, puis fusionner le mixage. Parce que là, j'ai besoin que tu me redonnes absolument tout de manière propre. Et il y a aussi un problème, c'est que... En fait, c'est que au final... la vidéo que je t'ai demandé de télécharger, donc de 0 à 3 secondes, j'ai surtout besoin de 0 à 2 secondes. Et la vidéo de 3 à 6 secondes... La vidéo de 3 à 6 secondes, par contre, elle est parfaite. Donc c'est surtout la première où tu dois cut sur la troisième seconde. Enfin, tu dois cut avant la troisième seconde. Donc sans doute à 2,5 ou à 2 secondes. Et ensuite, tu dois refaire le mixage en normalisant d'abord. (26 October 2026, 19:47:24 +0100)
+
+## 26 October 2026, 19:48:37 +0100 : Iteration
+
+<!-- feedback-event:ac878bd8e17c7c714c29542c476adb72930e8d2ef847dba4a9bcf8f1cf323b11 (26 October 2026, 19:48:37 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 19:48:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:48:37 +0100)
+
+> J'ai tout refait en normalisant d'abord, puis en fusionnant. Les 9 fichiers sont envoyés. Je ne les ai pas écoutés: je n'ai que mesuré les niveaux et les écarts. (26 October 2026, 19:48:37 +0100)
+>
+> Tu avais raison sur la cause. Au premier tour, les entrées étaient à des niveaux très différents: la musique à environ −33 LUFS et les effets à environ −22 LUFS. Je les avais mélangées dans cet état. (26 October 2026, 19:48:37 +0100)
+>
+> **Ce que j'ai changé.** (26 October 2026, 19:48:37 +0100)
+> - **Normalisation d'abord.** Chacune des cinq entrées est ramenée seule à −23 LUFS, par un simple gain. Ce sont la musique 0 à 2 s, la musique 3 à 6 s, `sfx1-B1s`, `sfx2-G2` et `sfx2-J2`. La musique prend +8,5 et +10,3 dB, B1s −1,6 dB et J2 −1 dB. G2 était déjà à −23. (26 October 2026, 19:48:37 +0100)
+> - **Fusion ensuite.** Les trois versions se distinguent seulement par l'écart entre musique et effets: (26 October 2026, 19:48:37 +0100)
+>   - v1, musique devant: effets 9 dB plus bas. (26 October 2026, 19:48:37 +0100)
+>   - v2, équilibré: 0 dB d'écart. (26 October 2026, 19:48:37 +0100)
+>   - v3, effets devant: effets 9 dB plus haut. (26 October 2026, 19:48:37 +0100)
+> - **Mix final.** Chaque mixage est ensuite mis à −24 LUFS et fait 3,000 s, en stéréo. (26 October 2026, 19:48:37 +0100)
+> - **Coupes.** La musique du son 1 s'arrête maintenant à 2 s, avec un fondu de sortie de 0,33 s. La coupe de 3 à 6 s est inchangée. Les trois coupes sont aussi renvoyées: `video-0-2s`, `video-3-6s` et `video-0-6s`. (26 October 2026, 19:48:37 +0100)
+>
+> **Le contrôle.** Il vérifie que chaque entrée tombe à −23 LUFS, à 0,15 dB près, et que l'écart musique/effets de chaque mixage est exact au décibel (−9, 0 et +9). Il passe au rouge quand je mets la musique non normalisée, comme au premier tour (−17,5 dB d'écart au lieu de −9). (26 October 2026, 19:48:37 +0100)
+>
+> La coupe à 2,5 s est déjà générée, avec le même contrôle vert, mais je ne l'ai pas envoyée pour ne pas doubler les fichiers. Assets et les trois skills restent à faire. (26 October 2026, 19:48:37 +0100)
+>
+> **Ta demande en plus court :** « Normalise chaque son avant de fusionner. Coupe la musique du son 1 à 2 s et garde la coupe de 3 à 6 s. Redonne tout. » (26 October 2026, 19:48:37 +0100)
