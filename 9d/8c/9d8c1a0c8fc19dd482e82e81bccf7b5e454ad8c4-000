@@ -5404,3 +5404,31 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 20:21:19 +0100)
 
 > Le limiteur retarde tout de 5 ms (anticipation) : je le compense à l'échantillon près, et le contrôle le vérifiera. (26 October 2026, 20:21:19 +0100)
+
+## 26 October 2026, 20:22:15 +0100 : Iteration
+
+<!-- feedback-event:f9c0d5b5c663d390d9fd7ae7348491a649c98d3c3172363342160899db6cc284 (26 October 2026, 20:22:15 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 20:22:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 20:22:15 +0100)
+
+> Les trois vidéos de F avec la note Ghibli sur le logo sont envoyées. Je ne les ai pas écoutées: tout est mesuré, pas entendu. (26 October 2026, 20:22:15 +0100)
+>
+> Dans les trois, le son 1 et le son 2 jouent normalement, sans décalage. Seule l'arrivée de la note change, calée sur un repère du film: (26 October 2026, 20:22:15 +0100)
+> - **flare:** la note commence à 3,15 s, quand la comète avale le mot. C'est ton « vers 3 s ». (26 October 2026, 20:22:15 +0100)
+> - **plate:** à 3,733 s, quand la plaque de verre du logo apparaît. (26 October 2026, 20:22:15 +0100)
+> - **tile:** à 3,883 s, quand la tuile blanche prend la marque. (26 October 2026, 20:22:15 +0100)
+>
+> Rien n'apparaît exactement à 3,5 s. Les repères qui l'encadrent sont 3,15 s et 3,733 s, d'où ces trois choix. Si tu veux la note à 3,5 s pile, dis-le. (26 October 2026, 20:22:15 +0100)
+>
+> **Ce que j'ai changé dans le mixage.** (26 October 2026, 20:22:15 +0100)
+> - **Note moins forte:** elle est à −9 dB sous les sons (avant −4 dB). (26 October 2026, 20:22:15 +0100)
+> - **Normalisation:** chaque son est d'abord normalisé, puis le tout est masterisé comme l'export de l'app, à −14 LUFS avec un pic à −1 dB. (26 October 2026, 20:22:15 +0100)
+> - **Gain et limiteur:** j'ai abandonné `loudnorm`, qui écrasait tout le film pour tenir le pic. Je mets maintenant un gain pur de +9 dB. Un limiteur doux ne touche que les quelques pics qui dépassent, environ 3 % des échantillons et 0,3 à 0,4 dB d'écart entre les sons. (26 October 2026, 20:22:15 +0100)
+> - **Régularité:** la sonie varie de 1,3 LU sur 6 s, donc très égale. (26 October 2026, 20:22:15 +0100)
+> - **Retard du limiteur:** il retardait tout le son de 5 ms par rapport à l'image. Je l'ai mesuré et supprimé, donc l'écart est maintenant de 0 échantillon. (26 October 2026, 20:22:15 +0100)
+>
+> Le contrôle est vert sur les trois vidéos et rouge si le son 1 est décalé de 5 ms. Il s'est trompé deux fois avant d'être juste: une fois sur le filtre grave de ffmpeg, une fois sur ce retard du limiteur. (26 October 2026, 20:22:15 +0100)
+>
+> Les trois vidéos « note au début + son 1 décalé de 60, 120 ou 180 ms » sont aussi prêtes, dans `out/assembly-final/` (`...-final-start-d060.mp4` et suivants). Je ne les ai pas envoyées pour ne pas tout mélanger. Le panneau de tous les sons reste dans la pile. (26 October 2026, 20:22:15 +0100)
+>
+> **Ta demande en plus court :** « Mets la note Ghibli quand le logo apparaît, vers 3 s ou 3,5 s, en trois propositions. » (26 October 2026, 20:22:15 +0100)
