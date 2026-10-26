@@ -4210,3 +4210,37 @@
 
 > Sony-Apparition-10-17s.wav (26 October 2026, 19:29:20 +0100)
 > Hormis ce son qui est clean, tous les autres sont complètement pétés. Donc comme tout à l'heure, tu arrêtes de faire n'importe quoi et tu me proposes un son clean. Enfin, tu me proposes des variations de son clean et pas des variations complètement pétées. Peut-être que c'est aussi dû à la reproduction qui n'est pas exacte actuellement. Mais j'ai surtout l'impression que t'as fait n'importe quoi. Parce que là, le son grésille complètement. (26 October 2026, 19:29:20 +0100)
+
+## 26 October 2026, 19:35:18 +0100 : Iteration
+
+<!-- feedback-event:cdd8775d73a9027584f0e301c1ea25d286e91c668c8274fa0ef8f3ca42cd8515 (26 October 2026, 19:35:18 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 19:35:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:35:18 +0100)
+
+> Tu as raison, la reproduction grésillait, et j'en ai trouvé la cause. Les trois variations propres et la reproduction réparée sont envoyées. Je pars de l'idée que « ce son clean » est la référence découpée, puisque c'est elle qui n'avait pas ce défaut. Je ne les ai pas écoutées. (26 October 2026, 19:35:18 +0100)
+>
+> **Pourquoi ça grésillait.** La recette de la reproduction contenait une enveloppe fine du bruit, une courbe de niveau toutes les 2,5 ms ajustée sur la référence. Elle était appliquée à un bruit tiré au hasard à chaque rendu, ce qui le découpait en salves. Mon score de 99,23 ne le voyait pas. J'ai donc mesuré le grésillement par un indice: la variation du niveau des aigus (5 à 12 kHz) d'une tranche de 10 ms à la suivante. (26 October 2026, 19:35:18 +0100)
+>
+> | Son | Indice de grésillement | (26 October 2026, 19:35:18 +0100)
+> |---|---| (26 October 2026, 19:35:18 +0100)
+> | Référence | 1,49 | (26 October 2026, 19:35:18 +0100)
+> | Ancienne reproduction | 3,18 | (26 October 2026, 19:35:18 +0100)
+> | Ancienne variation H1 | 3,80 | (26 October 2026, 19:35:18 +0100)
+> | Sans l'enveloppe fine, test | 0,89 | (26 October 2026, 19:35:18 +0100)
+> | Reproduction réparée | 1,47 | (26 October 2026, 19:35:18 +0100)
+>
+> **Ce que j'ai réparé.** (26 October 2026, 19:35:18 +0100)
+> - J'ai lissé cette enveloppe sur 90 ms (fonction `smooth_noise_env` dans `zrsfx/crackle.py`). Ce lissage est maintenant le réglage par défaut de `Reproduce.py`. (26 October 2026, 19:35:18 +0100)
+> - Le score tombe à 97,94 au lieu de 99,23. Je préfère un son propre à un score plus haut. (26 October 2026, 19:35:18 +0100)
+> - La page d'écoute à l'aveugle est jointe (`listen.html`), avec les signatures. (26 October 2026, 19:35:18 +0100)
+>
+> **Les trois variations propres.** Je suis parti de la référence elle-même, sans rendre de recette ni ajouter de bruit. (26 October 2026, 19:35:18 +0100)
+> - **J1, tel quel:** une fenêtre de 3 s dont le sommet tombe sur le début de l'aberration (4,4 s du film), avec un fondu d'une seconde dans chaque sens. (26 October 2026, 19:35:18 +0100)
+> - **J2, plus profond:** comme J1, transposé de −2 demi-tons façon bande, sans étirement. (26 October 2026, 19:35:18 +0100)
+> - **J3, plus ample:** comme J1, avec une queue de salle lisse. (26 October 2026, 19:35:18 +0100)
+>
+> Le contrôle de propreté est vert sur les trois (J1 1,43, J2 1,54, J3 1,51, pour un plafond de 1,94). Il est rouge sur un fichier avec un souffle fixe, et rouge sur un souffle en salves, comme l'ancien défaut. Les anciens H1 à H3 le font échouer. (26 October 2026, 19:35:18 +0100)
+>
+> Mes versions précédentes (les neuf de bruit étiré et les trois tons purs) partaient de mauvaises matières. Je ne peux toujours pas juger le goût: ce contrôle garantit que c'est propre, pas que c'est beau. Assets et les trois skills restent à faire, avec la leçon du grésillement dans le skill ZenRay SFX. (26 October 2026, 19:35:18 +0100)
+>
+> **Ta demande en plus court :** « Garde la référence Sony, donne-moi des variations propres, et répare ce qui grésillait. » (26 October 2026, 19:35:18 +0100)
