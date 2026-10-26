@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-10-26T09:55:19.720Z",
+ "scannedAt": "2026-10-26T11:04:40.170Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -37,34 +37,34 @@
   },
   {
    "projectId": "zenray-sfx-25-october-2026",
-   "lines": 2,
+   "lines": 4,
    "work": 0,
    "prompts": 1,
    "first": "2026-10-25T17:53:29.730Z",
-   "last": "2026-10-25T17:53:29.730Z",
+   "last": "2026-10-26T10:20:26.385Z",
    "strength": "weak",
    "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "provider": "claude",
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
-   "updatedAt": "2026-10-25T19:10:35.216Z",
-   "bytes": 38407,
+   "updatedAt": "2026-10-26T11:04:32.312Z",
+   "bytes": 17369904,
    "boundProject": "zenray-dictate"
   },
   {
    "projectId": "zenray-sfx-25-october-2026",
-   "lines": 1,
+   "lines": 2,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-26T08:52:36.506Z",
-   "last": "2026-10-26T08:52:36.506Z",
+   "last": "2026-10-26T10:18:29.109Z",
    "strength": "weak",
    "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-26T09:54:24.493Z",
-   "bytes": 38425,
+   "updatedAt": "2026-10-26T10:44:43.512Z",
+   "bytes": 38454,
    "boundProject": null
   }
  ]
