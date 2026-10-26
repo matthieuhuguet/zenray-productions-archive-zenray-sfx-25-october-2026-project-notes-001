@@ -3,3 +3,8 @@
 - Project ID: zenray-sfx-25-october-2026. (25 October 2026)
 - Canonical feedback: /Users/zenray/.claude/Memory1/Projects/zenray-sfx-25-october-2026/FEEDBACK.md. (25 October 2026)
 - Append dated decisions and verified knowledge here; retain existing entries. (25 October 2026)
+
+## 26 October 2026 : le film Sony puis PlayStation, rythme D, E, F
+
+- 26 October 2026 : sons du film dans `ZenRaySFX/out/proposals/zenray-sony-playstation-d-ppm/` (sfx1 et sfx2, huit tours de propositions), mixages dans `out/assembly*`, vidéos finales dans `out/assembly-final` et `out/f-60`. Liés à Motion Design par `sfx.json` du projet et par la piste Sons. Voir la Galerie SFX `/motion/gallery-sfx`. (26 October 2026)
+- 26 October 2026 : trois pièges payés : un son reproduit grésille quand l'enveloppe fine du bruit est ajustée sur la référence (corrigé par `zrsfx/crackle.py`, lissage 90 ms) ; il faut normaliser chaque entrée AVANT de fusionner ; un limiteur à anticipation retarde le son de 5 ms (compensé à l'échantillon). (26 October 2026)
