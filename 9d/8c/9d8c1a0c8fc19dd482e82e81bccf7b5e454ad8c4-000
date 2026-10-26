@@ -4037,3 +4037,23 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:18:28 +0100)
 
 > Je repars de zéro. Le problème vient de ma matière de départ: j'ai étiré un pad fait de bruit, ce qui donne ce son d'enfer. Je refais avec des sons purs et tonals, sans aucun bruit. (26 October 2026, 19:18:28 +0100)
+
+## 26 October 2026, 19:20:25 +0100 : Iteration
+
+<!-- feedback-event:b70a2b969e0780879edd138eed6b28d462ca460a7c088a8ae58df2eeb85e659a (26 October 2026, 19:20:25 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 19:20:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 19:20:25 +0100)
+
+> Les trois nouvelles versions de sfx2 sont envoyées, avec la planche des spectrogrammes. Je ne les ai pas écoutées. Tu as raison sur la cause: les neuf précédentes partaient d'un son de pluie, fait de bruit, que j'avais étiré. Étiré et assombri, il donnait ce rendu d'enfer. (26 October 2026, 19:20:25 +0100)
+>
+> Cette fois il n'y a plus aucun bruit. Ce sont des tons purs, calculés note par note: des harmoniques, un peu de synthèse FM et un écho de salle lisse. La montée est lente, le sommet tombe quand l'aberration commence (4,4 s), puis le son redescend régulièrement jusqu'au silence. Le volume est de −26 LUFS pour les trois. (26 October 2026, 19:20:25 +0100)
+>
+> - **G1, verre doux:** un accord ouvert de verre (ré, la, mi, fa dièse, la), puis deux notes de verre très douces au sommet. (26 October 2026, 19:20:25 +0100)
+> - **G2, cordes tendres:** les mêmes notes en cordes de synthé feutrées, avec une note grave très discrète dessous. (26 October 2026, 19:20:25 +0100)
+> - **G3, piano électrique et nappe:** cinq notes de piano électrique espacées, calées sur le film, sur une nappe à peine perceptible. (26 October 2026, 19:20:25 +0100)
+>
+> J'ai vérifié que la planche ne montre que des lignes nettes, sans aucune texture de bruit. Le contrôle de propreté est vert sur les trois (très tonals, rien au-dessus de 9 kHz, aucun saut brusque de niveau, fin silencieuse). Il passe au rouge quand j'ajoute du bruit à un fichier. Il prouve que c'est propre, pas que c'est beau. Le goût PlayStation et Kojima, je ne peux que le viser: je me suis appuyé sur mes connaissances de sound design, sans recherche web. (26 October 2026, 19:20:25 +0100)
+>
+> Je ne sais pas si ton « tous les effets » incluait aussi sfx1 (les fins douces). Elles gardent un peu de souffle et de coup grave, donc si elles te déplaisent aussi, je les refais en tons purs. (26 October 2026, 19:20:25 +0100)
+>
+> **Ta demande en plus court :** « Refais sfx2 propre, doux, classe, esprit PlayStation et Kojima, sans rien de sale. » (26 October 2026, 19:20:25 +0100)
