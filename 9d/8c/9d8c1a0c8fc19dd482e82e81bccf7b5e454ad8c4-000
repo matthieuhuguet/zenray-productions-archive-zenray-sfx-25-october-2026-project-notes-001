@@ -5584,3 +5584,86 @@
 > Les galeries Motion et SFX sont dans la pile, derrière cette demande. (26 October 2026, 20:31:52 +0100)
 >
 > **Ta demande en plus court:** « Refais la version validée de F en 60 fps, en 2048 px, et en carré 1:1 sans crop. » (26 October 2026, 20:31:52 +0100)
+
+## 26 October 2026, 21:19:31 +0100 : Prompt
+
+<!-- feedback-event:81647073b466aa86bb713ecff7b784d66409c02072a63c70a006d1476275b0e6 (26 October 2026, 21:19:31 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: prompt. (26 October 2026, 21:19:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 21:19:31 +0100)
+
+> Oui, lance les deux galeries Motion et SFX. (26 October 2026, 21:19:31 +0100)
+
+## 26 October 2026, 21:20:54 +0100 : Iteration
+
+<!-- feedback-event:33022941b22314dd8ef5205f14d5326d0d060cdccc78155b5c5fe2efe970db0e (26 October 2026, 21:20:54 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 21:20:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 21:20:54 +0100)
+
+> Je construis les deux galeries dans l'app Motion : d'abord le catalogue (projets regroupés, sons décrits), ensuite le serveur et les pages. (26 October 2026, 21:20:54 +0100)
+
+## 26 October 2026, 21:22:40 +0100 : Iteration
+
+<!-- feedback-event:635d4c9a76dccc14aac94b191ccb0e3fc964bca124f9732687aa5b27abd8c84b (26 October 2026, 21:22:40 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 21:22:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 21:22:40 +0100)
+
+> Les affiches sont prêtes (une par film, 32 au total). J'écris maintenant les deux pages : une feuille de style commune, un script commun, puis Motion et SFX. (26 October 2026, 21:22:40 +0100)
+
+## 26 October 2026, 21:24:38 +0100 : Iteration
+
+<!-- feedback-event:7342c25474548417fd94e2a3d0c65c9594c9f79924a2515ef10b7d3c65f7fcca (26 October 2026, 21:24:38 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 21:24:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 21:24:38 +0100)
+
+> La Galerie Motion s'affiche bien (32 films, une carte chacun). Je vérifie maintenant la Galerie SFX : sons, ondes, lecture. (26 October 2026, 21:24:38 +0100)
+
+## 26 October 2026, 21:27:30 +0100 : Iteration
+
+<!-- feedback-event:ab2c503849dbb05d320c392cd51ab49c077ad289740074f408f35de868e8e8d2 (26 October 2026, 21:27:30 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 21:27:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 21:27:30 +0100)
+
+> Je relie maintenant les projets dans Assets (sans projet global) : je cherche d'abord où vit le registre. (26 October 2026, 21:27:30 +0100)
+
+## 26 October 2026, 21:29:07 +0100 : Iteration
+
+<!-- feedback-event:2249ddc17a5526ea49f404ab90fc5473eb5a672f26c2c24be84a44c30bb4ce98 (26 October 2026, 21:29:07 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 21:29:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 21:29:07 +0100)
+
+> Les skills sont à jour et synchronisés. Je termine : entrée de journal, mémoire, commit, puis un dernier contrôle de bout en bout. (26 October 2026, 21:29:07 +0100)
+
+## 26 October 2026, 21:29:40 +0100 : Iteration
+
+<!-- feedback-event:eaf3229f01b9060e236b456054fedcf1f0be5e8eeac32885231409478e17b222 (26 October 2026, 21:29:40 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 21:29:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 21:29:40 +0100)
+
+> Les deux galeries sont construites dans l'app Motion, en HTML dans Chrome. Je les ai ouvertes dans le navigateur intégré. Je n'ai pas testé le glisser-déposer des capsules à la souris, et je ne les ai pas encore ouvertes dans ton Chrome. (26 October 2026, 21:29:40 +0100)
+>
+> **Rythme F validé.** J'ai marqué le projet `zenray-sony-playstation-f-ppm` comme validé, avec la note Ghibli à 3,15 s, `son1-v3` et `son2-v3`. Toutes les autres versions sont gardées. La note du projet donne aussi le chemin des rendus 60 fps. (26 October 2026, 21:29:40 +0100)
+>
+> **Galerie Motion, `/motion/gallery`.** (26 October 2026, 21:29:40 +0100)
+> - **Cartes:** une carte par film, avec 87 projets regroupés en 32 cartes. Les 12 versions Sony (rythmes A à F, 10 s, révélation, ouverture PlayStation, ZenRay) sont une seule carte. Il en va de même pour les 22 séquences MacBook, les jumeaux `-ppm` et `-motion`, les trois copies du film de lancement, etc. (26 October 2026, 21:29:40 +0100)
+> - **Contenu d'une carte:** affiche, durée, fps, formats, nombre de sons et de validations. Un clic sur une carte déplie ses versions, et chaque version s'ouvre dans l'éditeur. (26 October 2026, 21:29:40 +0100)
+>
+> **Galerie SFX, `/motion/gallery-sfx`.** (26 October 2026, 21:29:40 +0100)
+> - **Sons:** 230 sons, répartis en 9 projets d'origine, chacun avec son contexte. Les groupes sont les reproductions Death Stranding, les sons 1 et 2 du rythme D, les mixages, la note Ghibli, les pistes de 6 s, les pistes finales de F, les archétypes et les 155 effets de la banque des références. (26 October 2026, 21:29:40 +0100)
+> - **Fonctions:** chaque son a son onde, sa durée, sa description, et se lit au clic avec un trait de progression. Les sources locales (Death Stranding, Ghibli, banque) sont étiquetées. (26 October 2026, 21:29:40 +0100)
+>
+> **Interface.** C'est la vue 0.3 Studio de la Galerie Rework, avec GT Ultra pour les titres et les chiffres et GT Standard L pour le reste. Les curseurs de colonnes, d'espacement, d'arrondi, de ratio et d'ajustement sont là, avec le thème, l'alternative Literata et « Copier CSS ». Tous les textes et chemins sont dans `motion/params/gallery.json`. Un film ajouté sans famille a sa propre carte. (26 October 2026, 21:29:40 +0100)
+>
+> **Vérifié.** (26 October 2026, 21:29:40 +0100)
+> - **Pages:** les polices sont chargées, les ondes dessinées, un son se lance depuis une carte. Les liens vers les galeries sont dans les barres des autres pages. (26 October 2026, 21:29:40 +0100)
+> - **Test:** `test_gallery.py` est vert (chaque projet dans une seule carte, chaque affiche et chaque fichier de son présents). Il passe au rouge sur un projet perdu, un identifiant de son en double, une affiche ou un fichier manquant. (26 October 2026, 21:29:40 +0100)
+> - **Bug trouvé:** le chargement différé des ondes ne se déclenchait pas dans le volet navigateur intégré, ni avec un observateur ni avec `requestAnimationFrame`. Je l'ai remplacé par une vérification de position par minuteur, consignée dans le skill. (26 October 2026, 21:29:40 +0100)
+>
+> **Consigné.** (26 October 2026, 21:29:40 +0100)
+> - **Skills:** `zenray-motion-design`, `zenray-sfx` et `zenray-edit` sont mis à jour et synchronisés. (26 October 2026, 21:29:40 +0100)
+> - **Fichiers projet:** les `Project1.md` des trois projets Assets sont complétés. (26 October 2026, 21:29:40 +0100)
+> - **Mémoire et journal:** une note de mémoire et une entrée de journal sont écrites. (26 October 2026, 21:29:40 +0100)
+> - **Dépôts:** ZenRayMotionDesign, ZenRaySFX et ZenRayEdit sont commités. J'ai relancé l'index de ZenRay Edit, il est vert. (26 October 2026, 21:29:40 +0100)
+>
+> **Limites.** Je n'ai pas créé de registre de dépendances dans Assets. Je n'ai pas trouvé de commande pour le faire proprement, donc les liens (Edit appelle Motion et SFX, SFX est lié à Motion) sont dans `ZenRayEdit/params/modules.json` et dans les `Project1.md`, sans projet global. L'aberration des anciens rythmes et les affiches mi-animation de quelques films se règlent par `posterAt` dans `gallery.json`. (26 October 2026, 21:29:40 +0100)
+>
+> **Ta demande en plus court :** « Construis les deux galeries (films et sons) sur la Galerie Rework vue 0.3, avec une seule carte par film. » (26 October 2026, 21:29:40 +0100)
