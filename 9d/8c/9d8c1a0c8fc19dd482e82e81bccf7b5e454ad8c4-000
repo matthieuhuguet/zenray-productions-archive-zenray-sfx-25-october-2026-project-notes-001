@@ -5315,3 +5315,24 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 20:13:53 +0100)
 
 > Testons, en fait, j'aimerais tester un autre truc. Testons plutôt dans le son 2, justement, à la fin, tu vois, au moment où on a laissé un espace blanc avec la note Ghibli. Je pense qu'à ce moment-là, ça va bien marcher. Et redonne-moi la vidéo. Par contre, garde l'ancien son pour le son 1. pour la vod (26 October 2026, 20:13:53 +0100)
+
+## 26 October 2026, 20:14:48 +0100 : Iteration
+
+<!-- feedback-event:aba69218461892f230c8efb557f303e0f48aedd0df123893ad2391def55700d8 (26 October 2026, 20:14:48 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (26 October 2026, 20:14:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 20:14:48 +0100)
+
+> J'ai testé la note Ghibli dans le blanc de la fin du son 2 et je te renvoie la vidéo de F. Je ne l'ai pas écoutée: j'ai seulement vérifié le moment où la note commence et les niveaux. (26 October 2026, 20:14:48 +0100)
+>
+> **Ce qu'il y a dans la vidéo F** (6 s, 1920×1080): (26 October 2026, 20:14:48 +0100)
+> - **Son 1, de 0 à 3 s:** l'ancien `son1-v3`, sans la note. (26 October 2026, 20:14:48 +0100)
+> - **Son 2, de 3 à 6 s:** `son2-v3` avec la note Ghibli dans la dernière seconde. La musique est toujours coupée à 5 s, donc c'est le blanc qu'on avait laissé. La note commence à 5,0 s du film (2,0 s dans le son 2), sonne jusqu'à 6,0 s, et se mélange à −4 dB sous les effets. La balance reste celle de ton choix v3 (musique −9 dB, effets à 0 dB). (26 October 2026, 20:14:48 +0100)
+> - **Fondu:** la note garde le fondu de 0,33 s de sa coupe, ce qui suffit pour qu'elle finisse proprement avant 6,0 s. (26 October 2026, 20:14:48 +0100)
+>
+> Chaque entrée (musique, J2, note) est normalisée d'abord, puis fusionnée, et le mixage final est à −24 LUFS. Le contrôle vérifie la normalisation, les niveaux exacts et l'instant où la note est entendue (2,000 s demandé, 2,000 s trouvé). Il passe au rouge si je décale la note de 0,5 s ou si elle n'est pas normalisée. (26 October 2026, 20:14:48 +0100)
+>
+> **Dans l'éditeur.** La capsule du son 2 de F a maintenant une version v4, « avec la note Ghibli à la fin », à côté de v1, v2 et v3. Ton choix actuel reste v3. Recharge la page de l'éditeur pour la voir. J'ai joint `son2-note.wav`, le son 2 seul. (26 October 2026, 20:14:48 +0100)
+>
+> Si tu préfères la note plus tôt dans la dernière seconde ou plus discrète, ce sont deux réglages dans `params/assembly.json` (`note2.onset` et `note2.noteDb`). Les trois mixages du son 1 avec la note au début sont mis en pause. Le panneau de tous les sons reste dans la pile, derrière ton choix. (26 October 2026, 20:14:48 +0100)
+>
+> **Ta demande en plus court :** « Teste la note Ghibli dans le blanc de la fin du son 2, garde l'ancien son 1, et redonne la vidéo. » (26 October 2026, 20:14:48 +0100)
