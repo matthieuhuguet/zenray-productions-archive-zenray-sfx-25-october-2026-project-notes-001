@@ -5336,3 +5336,11 @@
 > Si tu préfères la note plus tôt dans la dernière seconde ou plus discrète, ce sont deux réglages dans `params/assembly.json` (`note2.onset` et `note2.noteDb`). Les trois mixages du son 1 avec la note au début sont mis en pause. Le panneau de tous les sons reste dans la pile, derrière ton choix. (26 October 2026, 20:14:48 +0100)
 >
 > **Ta demande en plus court :** « Teste la note Ghibli dans le blanc de la fin du son 2, garde l'ancien son 1, et redonne la vidéo. » (26 October 2026, 20:14:48 +0100)
+
+## 26 October 2026, 20:16:05 +0100 : Prompt
+
+<!-- feedback-event:ccd67b5a5acf09f2ed09a14b529e8b49df95dee69fdf9ed1aa71fe7916244113 (26 October 2026, 20:16:05 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: prompt. (26 October 2026, 20:16:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (26 October 2026, 20:16:05 +0100)
+
+> Alors, on va le refaire. En fait, je sais ce qu'on va faire. On va la proc sur le son 1 plutôt. Et ensuite, on va créer un léger décalage pour le son 1. Donc, c'est-à-dire, on a la Ghibli note, on a un léger décalage, on a le son 1 qui s'exécute normalement, et ensuite, on a le son 2 qui s'exécute normalement. Donc, redonne-moi uniquement la piste sonore de ça, et fais-moi 3 variations avec des micro-décalages pour que je puisse choisir la variation qui me plaît. (26 October 2026, 20:16:05 +0100)
