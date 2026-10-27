@@ -5667,3 +5667,48 @@
 > **Limites.** Je n'ai pas créé de registre de dépendances dans Assets. Je n'ai pas trouvé de commande pour le faire proprement, donc les liens (Edit appelle Motion et SFX, SFX est lié à Motion) sont dans `ZenRayEdit/params/modules.json` et dans les `Project1.md`, sans projet global. L'aberration des anciens rythmes et les affiches mi-animation de quelques films se règlent par `posterAt` dans `gallery.json`. (26 October 2026, 21:29:40 +0100)
 >
 > **Ta demande en plus court :** « Construis les deux galeries (films et sons) sur la Galerie Rework vue 0.3, avec une seule carte par film. » (26 October 2026, 21:29:40 +0100)
+
+## 27 October 2026, 23:20:38 +0100 : Prompt
+
+<!-- feedback-event:5f46e76ad58e004daa53931c0f35a34796db07e0cdf835b9d1c72d2379669017 (27 October 2026, 23:20:38 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: prompt. (27 October 2026, 23:20:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (27 October 2026, 23:20:38 +0100)
+
+> <pasted_content id="f6c3"> (27 October 2026, 23:20:38 +0100)
+> J'ai une question du coup, c'est pourquoi est-ce que t'as pas enregistré la dernière vidéo? Puisque la dernière vidéo était la galerie F, elle aurait dû être enregistrée dans Motion Design. Pourtant, quand je vais dans ZenRay Motion Design, sur l'app directement, et je vais dans Galerie Motion, bizarrement, je retrouve pas le motion qu'on avait, qui était censé être validé. Donc c'est bizarre. Normalement, parce que en fait ZenRay Sony plus PlayStation, t'aurais dû enregistrer le motion, mais tu l'as pas fait. Je comprends pas pourquoi. Après, j'aime bien ta vue actuellement de la galerie motion. En revanche, je pense que pour la pour le reste de l'interface, on devrait mettre plutôt l'iterata en fonte. C'est-à-dire les titres, on laisse en GT Ultra, mais pour tout le reste de l'interface, on met en literata, en regular. Et par contre, tout ce qui est dans les boutons, etc., tout ce qui est de l'UI ou des titres, etc., on met en GT Ultra. Mais par contre, ma vraie question, c'est pourquoi est-ce que il n'y a pas Sony F? Tu vois, il y a A, B, C, D, E, E, mais il n'y a pas le dernier qu'on a sauvegardé, donc c'est vraiment bizarre. Donc je sais pas pourquoi l'index tracking n'a pas suivi le fichier. Il faut absolument le résoudre. (27 October 2026, 23:20:38 +0100)
+> </pasted_content id="f6c3"> (27 October 2026, 23:20:38 +0100)
+>
+>  ??? ou est F En plus, on l'a validé plusieurs fois. Mais moi, ce que je veux dans l'application ZenRay Motion, c'est le code, hein, c'est pas forcément le tracking des vidéos MP4. C'est surtout le code qui permet d'afficher les assets et tous les motions, tu vois. ? /tasks-sequence (27 October 2026, 23:20:38 +0100)
+
+## 27 October 2026, 23:21:24 +0100 : Prompt
+
+<!-- feedback-event:bf8dd098e5f7ca4eafcb713bcc4a0a6e032c0b2c6564ebdc00cf0e20c9bca657 (27 October 2026, 23:21:24 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: prompt. (27 October 2026, 23:21:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (27 October 2026, 23:21:24 +0100)
+
+> Skill /tasks-sequence was loaded earlier (see the invoked-skills reminder above); this is a NEW invocation — follow those instructions now, including any setup steps. (27 October 2026, 23:21:24 +0100)
+
+## 27 October 2026, 23:23:53 +0100 : Iteration
+
+<!-- feedback-event:d5e5c3106d0dd4dafbf1b43b11c911bf6b0d42ba1c5474b356f723f231b902fb (27 October 2026, 23:23:53 +0100) -->
+- Project: zenray-sfx-25-october-2026; kind: iteration. (27 October 2026, 23:23:53 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b8e43d99-5824-4ddc-8444-a984b5743a04.jsonl. (27 October 2026, 23:23:53 +0100)
+
+> F n'était pas perdue. Elle était bien dans la carte « ZenRay : Sony puis PlayStation », qui contient 12 versions, mais la liste de ces versions était coupée à 260 px avec un défilement. F arrivait en dixième, par ordre alphabétique, donc sous le pli, après A à E. L'index et le suivi des fichiers n'y étaient pour rien. Dans le navigateur de l'app, F est maintenant en tête de la carte, avec une étoile. Je n'ai pas vu la page dans ton propre Chrome, et la garde de version devrait recharger ta page ouverte seule, sinon fais Cmd+R. (27 October 2026, 23:23:53 +0100)
+>
+> **Ce que j'ai changé** (27 October 2026, 23:23:53 +0100)
+> - **Liste non coupée:** les versions s'affichent toutes, sans plafond de hauteur. (27 October 2026, 23:23:53 +0100)
+> - **Version validée en tête:** elle est marquée « ★ » et la carte porte une ligne « ★ Validé : … ». Le nombre de sons de chaque version est affiché. (27 October 2026, 23:23:53 +0100)
+> - **Le code garde tout:** les réglages de E et de F (6 s, aberration douce, courbe exponentielle) étaient déjà dans `VARIANTS` du script `zenray_sony_playstation_timing.py`. Il manquait une chose: une reconstruction par `ppm.run` effaçait les capsules de son. Elles sont désormais conservées avec la validation. Les sons s'installent avec `Scripts/AddSoundClips.py <projet>`. (27 October 2026, 23:23:53 +0100)
+> - **Typographie:** titres et interface (boutons, onglets, étiquettes, chiffres) en GT Ultra. Texte courant (notes, descriptions) en Literata Regular. GT Standard L reste en alternative par le bouton « Corps ». (27 October 2026, 23:23:53 +0100)
+>
+> **Vérifié:** les tests de la galerie passent (vert) et échouent quand je casse exprès (rouge): version validée en premier dans chaque carte, F première de la carte Sony, capsules conservées après reconstruction. Dans le navigateur de l'app: F en tête, liste non coupée, polices chargées. Le commit est fait dans ZenRayMotionDesign, et le skill et le journal sont à jour. (27 October 2026, 23:23:53 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (27 October 2026, 23:23:53 +0100)
+> |---|---|---| (27 October 2026, 23:23:53 +0100)
+> | Retrouver F dans la Galerie Motion | Oui | F est la première version de la carte, mesurée dans le navigateur | (27 October 2026, 23:23:53 +0100)
+> | Que le code garde E, F et leurs sons, pas les MP4 | Oui | E et F sont dans `VARIANTS`, test vert et rouge sur les capsules | (27 October 2026, 23:23:53 +0100)
+> | Literata pour le corps, GT Ultra pour titres et interface | Oui | polices lues dans le navigateur | (27 October 2026, 23:23:53 +0100)
+> | Que ça ne se reproduise pas | Oui | test qui échoue si la version validée n'est pas en tête | (27 October 2026, 23:23:53 +0100)
+>
+> **Ta demande en plus court :** « Pourquoi F n'apparaît pas dans la galerie, alors que je l'ai validée ? Garde le code, pas les MP4. » (27 October 2026, 23:23:53 +0100)
