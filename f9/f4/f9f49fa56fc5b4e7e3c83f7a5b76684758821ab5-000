@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-10-29T15:53:00.094Z",
+ "scannedAt": "2026-10-29T16:03:59.005Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -47,8 +47,8 @@
    "provider": "codex",
    "sessionId": "01a183ee-37b7-7c60-a028-d9f9a184591a",
    "title": "Conversation codex 01a183ee",
-   "updatedAt": "2026-10-29T15:51:31.026Z",
-   "bytes": 28904112,
+   "updatedAt": "2026-10-29T16:03:44.818Z",
+   "bytes": 32709222,
    "boundProject": "zenray-edit"
   },
   {
@@ -79,8 +79,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-29T15:52:43.299Z",
-   "bytes": 38567,
+   "updatedAt": "2026-10-29T16:00:21.719Z",
+   "bytes": 38585,
    "boundProject": "zenray-meshes"
   },
   {
