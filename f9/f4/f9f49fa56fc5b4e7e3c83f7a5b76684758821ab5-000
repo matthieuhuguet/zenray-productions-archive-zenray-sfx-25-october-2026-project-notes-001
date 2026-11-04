@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-11-04T12:17:32.022Z",
+ "scannedAt": "2026-11-04T18:18:23.296Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -33,22 +33,6 @@
    "title": "Conversation codex 01a1977d",
    "updatedAt": "2026-11-01T22:23:16.100Z",
    "bytes": 8373764,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-sfx-25-october-2026",
-   "lines": 9,
-   "work": 3,
-   "prompts": 3,
-   "first": "2026-10-27T22:45:23.523Z",
-   "last": "2026-10-27T23:01:04.106Z",
-   "strength": "strong",
-   "conversationId": "codex:01a17f7d-cb54-7c21-8c4b-78a7b22caa76",
-   "provider": "codex",
-   "sessionId": "01a17f7d-cb54-7c21-8c4b-78a7b22caa76",
-   "title": "Conversation codex 01a17f7d",
-   "updatedAt": "2026-10-28T10:13:00.461Z",
-   "bytes": 45303381,
    "boundProject": null
   },
   {
@@ -142,8 +126,8 @@
    "conversationId": "gemini:e6228d48-65e4-4333-bbe4-94b0c8ecfaab",
    "provider": "gemini",
    "sessionId": "e6228d48-65e4-4333-bbe4-94b0c8ecfaab",
-   "title": "Conversation Gemini e6228d48",
-   "updatedAt": "2026-11-02T22:38:11.680Z",
+   "title": "https://zenray-progress.pages.dev/folder?d=zrs1._BV8wgZyNnBfyOhnDGlwktErUjKJHo5R.11lj-FNzDq5Z_pwZzcci05wcxI0r-VJJ3WwwyK1JZ_Y Pourquoi le mar",
+   "updatedAt": "2026-11-02T22:37:16.286318+00:00",
    "bytes": 30736384,
    "boundProject": null
   },
@@ -191,8 +175,8 @@
    "provider": "codex",
    "sessionId": "01a1a1b0-2ed1-7783-8103-99285b9b3355",
    "title": "Conversation codex 01a1a1b0",
-   "updatedAt": "2026-11-03T22:15:21.628Z",
-   "bytes": 3524009,
+   "updatedAt": "2026-11-04T12:46:01.707Z",
+   "bytes": 4613376,
    "boundProject": "zenray-assets-v2"
   },
   {
@@ -226,6 +210,22 @@
    "updatedAt": "2026-10-30T02:12:26.822Z",
    "bytes": 37224,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-sfx-25-october-2026",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T12:38:42.044Z",
+   "last": "2026-11-04T12:38:42.044Z",
+   "strength": "weak",
+   "conversationId": "codex:01a1a691-55c4-73a3-a025-e5c27cecd60f",
+   "provider": "codex",
+   "sessionId": "01a1a691-55c4-73a3-a025-e5c27cecd60f",
+   "title": "Conversation codex 01a1a691",
+   "updatedAt": "2026-11-04T12:44:00.866Z",
+   "bytes": 1096243,
+   "boundProject": "conversation-codex-6d94c3fb52595cbb57e02bf5"
   },
   {
    "projectId": "zenray-sfx-25-october-2026",
