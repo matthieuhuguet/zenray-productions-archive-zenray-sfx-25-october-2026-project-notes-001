@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-11-06T05:22:48.615Z",
+ "scannedAt": "2026-11-08T18:27:49.689Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -34,22 +34,6 @@
    "updatedAt": "2026-11-01T22:23:16.100Z",
    "bytes": 8373764,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-sfx-25-october-2026",
-   "lines": 11,
-   "work": 2,
-   "prompts": 4,
-   "first": "2026-10-28T19:13:11.027Z",
-   "last": "2026-10-30T01:09:36.901Z",
-   "strength": "strong",
-   "conversationId": "codex:01a183ee-37b7-7c60-a028-d9f9a184591a",
-   "provider": "codex",
-   "sessionId": "01a183ee-37b7-7c60-a028-d9f9a184591a",
-   "title": "Conversation codex 01a183ee",
-   "updatedAt": "2026-10-31T06:22:27.936Z",
-   "bytes": 130681305,
-   "boundProject": "zenray-edit"
   },
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -110,8 +94,8 @@
    "conversationId": "gemini:e6228d48-65e4-4333-bbe4-94b0c8ecfaab",
    "provider": "gemini",
    "sessionId": "e6228d48-65e4-4333-bbe4-94b0c8ecfaab",
-   "title": "https://zenray-progress.pages.dev/folder?d=zrs1._BV8wgZyNnBfyOhnDGlwktErUjKJHo5R.11lj-FNzDq5Z_pwZzcci05wcxI0r-VJJ3WwwyK1JZ_Y Pourquoi le mar",
-   "updatedAt": "2026-11-02T22:37:16.286318+00:00",
+   "title": "Conversation Gemini e6228d48",
+   "updatedAt": "2026-11-02T22:38:11.680Z",
    "bytes": 30736384,
    "boundProject": null
   },
@@ -209,6 +193,22 @@
    "title": "louisiana bayou shorts",
    "updatedAt": "2026-10-30T02:12:26.822Z",
    "bytes": 37224,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-sfx-25-october-2026",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-08T00:19:52.310Z",
+   "last": "2026-11-08T00:19:52.310Z",
+   "strength": "weak",
+   "conversationId": "codex:01a1b880-053e-79d2-a657-256ca3f2e083",
+   "provider": "codex",
+   "sessionId": "01a1b880-053e-79d2-a657-256ca3f2e083",
+   "title": "Conversation codex 01a1b880",
+   "updatedAt": "2026-11-08T01:04:29.659Z",
+   "bytes": 4210798,
    "boundProject": null
   },
   {
