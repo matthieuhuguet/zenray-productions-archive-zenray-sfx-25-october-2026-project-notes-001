@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-11-09T12:30:51.428Z",
+ "scannedAt": "2026-11-09T14:42:14.135Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -32,7 +32,7 @@
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes dragon sculpt",
    "updatedAt": "2026-11-05T15:38:15.829Z",
-   "bytes": 58286,
+   "bytes": 58287,
    "boundProject": "zenray-meshes"
   },
   {
@@ -48,8 +48,24 @@
    "sessionId": "fd247c15-80dd-4c74-93af-112af60fa28e",
    "title": "zenray height",
    "updatedAt": "2026-11-02T22:25:37.927Z",
-   "bytes": 38014,
+   "bytes": 38091,
    "boundProject": "alien-skin-2-november-2026"
+  },
+  {
+   "projectId": "zenray-sfx-25-october-2026",
+   "lines": 3,
+   "work": 1,
+   "prompts": 0,
+   "first": "2026-11-08T00:19:52.310Z",
+   "last": "2026-11-09T14:41:15.675Z",
+   "strength": "weak",
+   "conversationId": "codex:01a1b880-053e-79d2-a657-256ca3f2e083",
+   "provider": "codex",
+   "sessionId": "01a1b880-053e-79d2-a657-256ca3f2e083",
+   "title": "Conversation codex 01a1b880",
+   "updatedAt": "2026-11-09T14:42:02.955Z",
+   "bytes": 18068577,
+   "boundProject": "zenray-progress"
   },
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -119,6 +135,22 @@
    "projectId": "zenray-sfx-25-october-2026",
    "lines": 2,
    "work": 0,
+   "prompts": 1,
+   "first": "2026-11-03T15:09:41.952Z",
+   "last": "2026-11-03T15:09:41.952Z",
+   "strength": "weak",
+   "conversationId": "claude:fdce96ce-c0fd-4b6e-8530-957817ed13c2",
+   "provider": "claude",
+   "sessionId": "fdce96ce-c0fd-4b6e-8530-957817ed13c2",
+   "title": "zenray documents",
+   "updatedAt": "2026-11-09T14:13:54.759Z",
+   "bytes": 38115,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-sfx-25-october-2026",
+   "lines": 2,
+   "work": 0,
    "prompts": 0,
    "first": "2026-11-05T15:59:48.147Z",
    "last": "2026-11-05T16:04:03.637Z",
@@ -136,22 +168,6 @@
    "lines": 2,
    "work": 0,
    "prompts": 1,
-   "first": "2026-11-03T15:09:41.952Z",
-   "last": "2026-11-03T15:09:41.952Z",
-   "strength": "weak",
-   "conversationId": "claude:fdce96ce-c0fd-4b6e-8530-957817ed13c2",
-   "provider": "claude",
-   "sessionId": "fdce96ce-c0fd-4b6e-8530-957817ed13c2",
-   "title": "zenray assets and edit",
-   "updatedAt": "2026-11-03T19:10:42.095Z",
-   "bytes": 37850,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-sfx-25-october-2026",
-   "lines": 2,
-   "work": 0,
-   "prompts": 1,
    "first": "2026-10-29T18:27:48.818Z",
    "last": "2026-10-29T18:27:48.818Z",
    "strength": "weak",
@@ -160,23 +176,7 @@
    "sessionId": "37715230-b8ac-48ec-ad5f-63dcb4149925",
    "title": "louisiana bayou shorts",
    "updatedAt": "2026-10-30T02:12:26.822Z",
-   "bytes": 37224,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-sfx-25-october-2026",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-08T00:19:52.310Z",
-   "last": "2026-11-08T00:19:52.310Z",
-   "strength": "weak",
-   "conversationId": "codex:01a1b880-053e-79d2-a657-256ca3f2e083",
-   "provider": "codex",
-   "sessionId": "01a1b880-053e-79d2-a657-256ca3f2e083",
-   "title": "Conversation codex 01a1b880",
-   "updatedAt": "2026-11-09T12:30:37.753Z",
-   "bytes": 7113978,
+   "bytes": 37446,
    "boundProject": null
   },
   {
