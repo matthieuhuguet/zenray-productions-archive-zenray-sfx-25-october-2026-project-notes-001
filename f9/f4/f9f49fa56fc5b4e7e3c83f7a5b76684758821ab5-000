@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-11-12T11:56:43.916Z",
+ "scannedAt": "2026-11-12T18:29:47.058Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -94,8 +94,8 @@
    "conversationId": "gemini:e6228d48-65e4-4333-bbe4-94b0c8ecfaab",
    "provider": "gemini",
    "sessionId": "e6228d48-65e4-4333-bbe4-94b0c8ecfaab",
-   "title": "https://zenray-progress.pages.dev/folder?d=zrs1._BV8wgZyNnBfyOhnDGlwktErUjKJHo5R.11lj-FNzDq5Z_pwZzcci05wcxI0r-VJJ3WwwyK1JZ_Y Pourquoi le mar",
-   "updatedAt": "2026-11-02T22:37:16.286318+00:00",
+   "title": "Conversation Gemini e6228d48",
+   "updatedAt": "2026-11-02T22:38:11.680Z",
    "bytes": 30736384,
    "boundProject": null
   },
@@ -162,6 +162,22 @@
    "updatedAt": "2026-11-04T23:22:33.033Z",
    "bytes": 4732655,
    "boundProject": "zenray-assets-v2"
+  },
+  {
+   "projectId": "zenray-sfx-25-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-11-12T13:23:06.419Z",
+   "last": "2026-11-12T13:23:06.419Z",
+   "strength": "weak",
+   "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "provider": "claude",
+   "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "title": "zenray meshes v5",
+   "updatedAt": "2026-11-12T16:31:13.514Z",
+   "bytes": 304563,
+   "boundProject": "zenray-meshes"
   },
   {
    "projectId": "zenray-sfx-25-october-2026",
