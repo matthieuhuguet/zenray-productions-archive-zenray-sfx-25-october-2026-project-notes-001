@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-11-11T23:54:20.273Z",
+ "scannedAt": "2026-11-12T05:55:34.314Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -94,8 +94,8 @@
    "conversationId": "gemini:e6228d48-65e4-4333-bbe4-94b0c8ecfaab",
    "provider": "gemini",
    "sessionId": "e6228d48-65e4-4333-bbe4-94b0c8ecfaab",
-   "title": "Conversation Gemini e6228d48",
-   "updatedAt": "2026-11-02T22:38:11.680Z",
+   "title": "https://zenray-progress.pages.dev/folder?d=zrs1._BV8wgZyNnBfyOhnDGlwktErUjKJHo5R.11lj-FNzDq5Z_pwZzcci05wcxI0r-VJJ3WwwyK1JZ_Y Pourquoi le mar",
+   "updatedAt": "2026-11-02T22:37:16.286318+00:00",
    "bytes": 30736384,
    "boundProject": null
   },
@@ -130,6 +130,22 @@
    "updatedAt": "2026-10-30T13:00:29.267Z",
    "bytes": 38918,
    "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "zenray-sfx-25-october-2026",
+   "lines": 3,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-11-12T01:00:37.737Z",
+   "last": "2026-11-12T01:00:55.607Z",
+   "strength": "weak",
+   "conversationId": "claude:e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "provider": "claude",
+   "sessionId": "e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "title": "excellent zenray audio et fonts",
+   "updatedAt": "2026-11-12T01:21:16.852Z",
+   "bytes": 276339,
+   "boundProject": "audio-fonts-gallery-12-november-2026"
   },
   {
    "projectId": "zenray-sfx-25-october-2026",
