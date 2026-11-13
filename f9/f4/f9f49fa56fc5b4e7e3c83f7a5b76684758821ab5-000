@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-11-13T13:21:41.433Z",
+ "scannedAt": "2026-11-13T19:22:57.764Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -149,22 +149,6 @@
   },
   {
    "projectId": "zenray-sfx-25-october-2026",
-   "lines": 3,
-   "work": 0,
-   "prompts": 1,
-   "first": "2026-11-03T13:54:15.198Z",
-   "last": "2026-11-03T14:17:55.217Z",
-   "strength": "weak",
-   "conversationId": "codex:01a1a1b0-2ed1-7783-8103-99285b9b3355",
-   "provider": "codex",
-   "sessionId": "01a1a1b0-2ed1-7783-8103-99285b9b3355",
-   "title": "Conversation codex 01a1a1b0",
-   "updatedAt": "2026-11-04T23:22:33.033Z",
-   "bytes": 4732655,
-   "boundProject": "zenray-assets-v2"
-  },
-  {
-   "projectId": "zenray-sfx-25-october-2026",
    "lines": 2,
    "work": 0,
    "prompts": 1,
@@ -176,7 +160,7 @@
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
    "updatedAt": "2026-11-12T16:31:13.514Z",
-   "bytes": 305749,
+   "bytes": 305804,
    "boundProject": "zenray-meshes"
   },
   {
@@ -199,22 +183,6 @@
    "projectId": "zenray-sfx-25-october-2026",
    "lines": 2,
    "work": 0,
-   "prompts": 0,
-   "first": "2026-11-05T15:59:48.147Z",
-   "last": "2026-11-05T16:04:03.637Z",
-   "strength": "weak",
-   "conversationId": "codex:01a1ac6e-9d82-73f3-92c6-5f7d03471753",
-   "provider": "codex",
-   "sessionId": "01a1ac6e-9d82-73f3-92c6-5f7d03471753",
-   "title": "Conversation codex 01a1ac6e",
-   "updatedAt": "2026-11-05T19:00:03.738Z",
-   "bytes": 27548103,
-   "boundProject": "zenray-meshes"
-  },
-  {
-   "projectId": "zenray-sfx-25-october-2026",
-   "lines": 2,
-   "work": 0,
    "prompts": 1,
    "first": "2026-10-29T18:27:48.818Z",
    "last": "2026-10-29T18:27:48.818Z",
@@ -226,22 +194,6 @@
    "updatedAt": "2026-10-30T02:12:26.822Z",
    "bytes": 37446,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-sfx-25-october-2026",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-04T12:38:42.044Z",
-   "last": "2026-11-04T12:38:42.044Z",
-   "strength": "weak",
-   "conversationId": "codex:01a1a691-55c4-73a3-a025-e5c27cecd60f",
-   "provider": "codex",
-   "sessionId": "01a1a691-55c4-73a3-a025-e5c27cecd60f",
-   "title": "Conversation codex 01a1a691",
-   "updatedAt": "2026-11-04T12:44:00.866Z",
-   "bytes": 1096243,
-   "boundProject": "conversation-codex-6d94c3fb52595cbb57e02bf5"
   }
  ]
 }
