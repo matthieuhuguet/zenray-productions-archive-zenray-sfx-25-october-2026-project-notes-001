@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-sfx-25-october-2026",
- "scannedAt": "2026-11-13T19:22:57.764Z",
+ "scannedAt": "2026-11-14T01:24:02.353Z",
  "conversations": [
   {
    "projectId": "zenray-sfx-25-october-2026",
@@ -160,7 +160,7 @@
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
    "updatedAt": "2026-11-12T16:31:13.514Z",
-   "bytes": 305804,
+   "bytes": 305798,
    "boundProject": "zenray-meshes"
   },
   {
